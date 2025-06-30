@@ -7,16 +7,21 @@
 
 \f0\fs24 \cf0 # Metal Blockchain OCPS v0.1\
 \
-This package contains the OpenChain Profile (OCPS v0.1) for Metal Blockchain.\
+An open-source, community-driven transparency profile standard for measuring decentralization for DAOs and Metal Blockchain ecosystem projects.\
 \
-## Contents\
-- YAML: Human-readable transparency profile\
-- JSON: Structured for AI/regulatory scanning\
-- PDF: Printable reference (generated separately)\
-- README: Overview for DAO post and GitHub\
+## Features\
+\uc0\u9989  YAML, JSON, PDF profile structures  \
+\uc0\u9989  IPFS pinned transparency certificates  \
+\uc0\u9989  On-chain attestation foundation  \
+\uc0\u9989  Supports upcoming regulatory clarity\
+\
+## Contributing\
+Pull requests and issues are welcome to improve metrics and tooling.\
 \
 ## License\
-CC-BY 4.0 Attribution Required\
+CC-BY 4.0 - reuse with attribution.\
 \
-## Contact\
-Austin Auger (austinauger@gmail.com)}
+## Docs\
+- Vision: `docs/vision_doc.md`\
+- Public Explainer: `docs/public_explainer.md`\
+- Roadmap: `docs/v0.2_roadmap.md`}
