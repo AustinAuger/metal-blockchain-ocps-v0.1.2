@@ -1,4 +1,4 @@
-# Metal Blockchain OCPS v0.1
+# Metal Blockchain OCPS v0.1.2
 
 ![License](https://img.shields.io/badge/license-CC--BY%204.0-lightgrey)
 ![Built With](https://img.shields.io/badge/built%20with-community%20governance-blue)
