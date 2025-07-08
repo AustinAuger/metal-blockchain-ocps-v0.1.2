@@ -4,8 +4,6 @@
 ![License](https://img.shields.io/badge/license-CC--BY%204.0-green)
 ![IPFS](https://img.shields.io/badge/IPFS-pinned-blue)
 ![Build](https://img.shields.io/badge/status-active-brightgreen)
-
-![License](https://img.shields.io/badge/license-CC--BY%204.0-lightgrey)
 ![Built With](https://img.shields.io/badge/built%20with-community%20governance-blue)
 
 An open-source, community-driven transparency profile standard for measuring decentralization for DAOs and Metal Blockchain ecosystem projects.
