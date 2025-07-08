@@ -4,7 +4,7 @@ We are committed to fostering a welcoming and inclusive environment.
 
 ## Our Pledge
 
-We pledge to make participation a harassment-free experience for everyone, regardless of humanity or more, age, body size, visible or invisible disability, ethnicity, gender identity and expression, experience level, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We pledge to make participation a harassment-free experience for everyone, regardless of humanity, age, body size, visible or invisible disability, ethnicity, gender identity and expression, experience level, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 ## Our Standards
 
