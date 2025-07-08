@@ -1,4 +1,3 @@
-An open-source, community-driven transparency profile standard for measuring decentralization for DAOs and Metal Blockchain ecosystem projects.
 
 ![Version](https://img.shields.io/badge/version-v0.1.2-blue)
 ![License](https://img.shields.io/badge/license-CC--BY%204.0-green)
