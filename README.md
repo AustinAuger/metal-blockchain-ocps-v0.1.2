@@ -1,7 +1,3 @@
-# OpenChain Profile (OCPS v0.1.2) for Metal Blockchain
-
-![OCPS Banner](https://github.com/AustinAuger/metal-blockchain-ocps-v0.1.2/assets/your_banner_image_link_here)
-
 An open-source, community-driven transparency profile standard for measuring decentralization for DAOs and Metal Blockchain ecosystem projects.
 
 ![Version](https://img.shields.io/badge/version-v0.1.2-blue)
