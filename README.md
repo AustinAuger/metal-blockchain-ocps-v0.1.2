@@ -1,4 +1,9 @@
-# Metal Blockchain OCPS v0.1.2
+# OpenChain Profile (OCPS v0.1.2) for Metal Blockchain decentralization transparency
+
+![Version](https://img.shields.io/badge/version-v0.1.2-blue)
+![License](https://img.shields.io/badge/license-CC--BY%204.0-green)
+![IPFS](https://img.shields.io/badge/IPFS-pinned-blue)
+![Build](https://img.shields.io/badge/status-active-brightgreen)
 
 ![License](https://img.shields.io/badge/license-CC--BY%204.0-lightgrey)
 ![Built With](https://img.shields.io/badge/built%20with-community%20governance-blue)
