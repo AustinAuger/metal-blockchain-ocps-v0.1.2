@@ -1,22 +1,20 @@
-# Code of Conduct
+# Contributing to Metal Blockchain OCPS
 
-We are committed to fostering a welcoming and inclusive environment.
+Thank you for your interest in contributing to the Metal Blockchain OpenChain Profile!
 
-## Our Pledge
+## How to Contribute
 
-We pledge to make participation a harassment-free experience for everyone, regardless of Humanity, age, body size, visible or invisible disability, ethnicity, gender identity and expression, experience level, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+- **Fork this repo** and create a feature branch (`feature/your-update`).
+- **Commit your changes** clearly describing improvements.
+- **Test your changes** if applicable.
+- **Submit a Pull Request** for review.
 
-## Our Standards
+## Contribution Guidelines
 
-✅ Be respectful and constructive.  
-✅ Be inclusive.  
-✅ Accept constructive feedback gracefully.  
-✅ Avoid personal attacks and discriminatory language.
-
-## Enforcement
-
-Instances of abusive or unacceptable behavior may be reported by contacting the repository maintainers.
+✅ Keep commits clean and descriptive.  
+✅ Follow YAML and Markdown formatting best practices.  
+✅ Suggest improvements, issues, or ideas in GitHub Discussions.
 
 ---
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org).
+Together, we are building open, verifiable decentralization transparency for DAOs.
