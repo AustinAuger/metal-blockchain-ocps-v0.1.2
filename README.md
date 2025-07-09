@@ -1,4 +1,3 @@
-
 ![Version](https://img.shields.io/badge/version-v0.1.2-blue)
 ![License](https://img.shields.io/badge/license-CC--BY%204.0-green)
 ![IPFS](https://img.shields.io/badge/IPFS-pinned-blue)
@@ -35,6 +34,14 @@ CC-BY 4.0 - reuse with attribution.
 We pin OCPS profiles to IPFS for verifiable decentralization snapshots. See [`Pinata_IPFS_instructions.txt`](Pinata_IPFS_instructions.txt) to add your CID here once pinned.
 
 Example: ipfs://bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u
+
+### OCPS v0.1.2 On-chain Attestation
+
+- **CID:** bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u
+- **Transaction:** [View on XPR Explorer](https://explorer.xprnetwork.org/transaction/2d6b62ded2f59965a2ad911972291f60e453275d5cab58c954f1f657ed1fda349)
+- **Date:** Jul-08-2025, Block #328,702,330
+
+This transaction pins and verifies the OCPS v0.1.2 profile on-chain, enabling decentralized, timestamped certification.
 
 ---
 
