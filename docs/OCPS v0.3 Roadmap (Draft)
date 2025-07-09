@@ -1,0 +1,16 @@
+## OCPS v0.3 Roadmap (Draft)
+
+### Goal:
+Enable `dao://` URI discoverability and JSON-LD compatibility for OCPS profiles to align with EIP-4824 while maintaining Metal Blockchain first support.
+
+### Proposed Milestones:
+✅ Research JSON-LD schema structures aligned with OCPS YAML/JSON profiles.  
+✅ Build a JSON-LD export function for OCPS profiles.  
+✅ Test integration with potential `dao://` URI resolvers.  
+✅ Update documentation for DAO certification with `dao://` discoverability.  
+✅ Optional: Propose integration to Metal DAO or XPR DAO for on-chain URI record alignment.
+
+### Benefits:
+- Cross-chain interoperability.
+- Enhanced DAO discoverability.
+- Alignment with Ethereum DAO ecosystem standards while retaining Metal Blockchain first certification focus.
