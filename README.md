@@ -40,6 +40,14 @@ CC-BY 4.0 - reuse with attribution.
 
 This transaction pins and verifies the OCPS v0.1.2 profile on-chain, enabling decentralized, timestamped certification.
 
+## Visuals
+
+### DAO Nutrition Label
+![DAO Nutrition Label](visuals/DAO_Nutrition_Label.png)
+
+### On-Chain Attestation Workflow
+![On-Chain Attestation Workflow](visuals/OnChain_Attestation_Workflow.png)
+
 ---
 
 **Ready to certify transparency together.**
