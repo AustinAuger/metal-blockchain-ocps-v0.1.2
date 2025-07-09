@@ -49,7 +49,7 @@ This transaction pins and verifies the OCPS v0.1.2 profile on-chain, enabling de
 ## Visuals
 
 ### DAO Nutrition Label
-![DAO Nutrition Label](visuals/DAO_Nutrition_Label.png)
+![DAO Nutrition Label](visuals/DAO_Nutrition_Label.PNG)
 
 ---
 
