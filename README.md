@@ -40,14 +40,6 @@ CC-BY 4.0 - reuse with attribution.
 
 This transaction pins and verifies the OCPS v0.1.2 profile on-chain, enabling decentralized, timestamped certification.
 
-### OCPS v0.1.2 On-chain Attestation
-
-- **CID:** bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u
-- **Transaction:** [View on XPR Explorer](https://explorer.xprnetwork.org/transaction/2d6b62ded2f59965a2ad911972291f60e453275d5cab58c954f1f657ed1fda349)
-- **Date:** Jul-08-2025, Block #328,702,330
-
-This transaction pins and verifies the OCPS v0.1.2 profile on-chain, enabling decentralized, timestamped certification.
-
 ---
 
 **Ready to certify transparency together.**
