@@ -19,6 +19,12 @@ An open-source, community-driven transparency profile standard for measuring dec
 ✅ On-chain attestation foundation  
 ✅ Supports upcoming regulatory clarity
 
+## Standards Alignment
+
+OCPS aligns with broader DAO transparency initiatives like [EIP-4824](https://eips.ethereum.org/EIPS/eip-4824), which defines a `dao://` URI scheme for discovering DAO metadata. While EIP-4824 focuses on *where* DAO metadata lives, OCPS focuses on *what* decentralization metrics are transparently measured and certified for DAOs.
+
+Future versions of OCPS will explore JSON-LD export for cross-chain `dao://` discoverability, enabling aligned, chain-agnostic DAO transparency while building community-driven certification tooling in the Metal Blockchain ecosystem.
+
 ## Contributing
 Pull requests and issues are welcome to improve metrics and tooling.
 
@@ -44,9 +50,6 @@ This transaction pins and verifies the OCPS v0.1.2 profile on-chain, enabling de
 
 ### DAO Nutrition Label
 ![DAO Nutrition Label](visuals/DAO_Nutrition_Label.png)
-
-### On-Chain Attestation Workflow
-![On-Chain Attestation Workflow](visuals/OnChain_Attestation_Workflow.png)
 
 ---
 
