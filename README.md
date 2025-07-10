@@ -78,6 +78,8 @@ This records our decentralization snapshot verifiably on-chain for community val
 ### DAO Nutrition Label
 ![DAO Nutrition Label](visuals/Sample_DAO_Label.png)
 
+![DAO Nutrition Label](visuals/DAO_SAMPLE_2.jpeg)
+
 ![DAO Nutrition Label](visuals/DAO_Nutrition_Label.PNG)
 
 ---
