@@ -38,13 +38,31 @@ CC-BY 4.0 - reuse with attribution.
 
 ## IPFS Transparency
 
-### OCPS v0.1.2 On-chain Attestation
+We pin OCPS profiles to IPFS for verifiable decentralization snapshots.
 
-- **CID:** bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u
-- **Transaction:** [View on XPR Explorer](https://explorer.xprnetwork.org/transaction/2d6b62ded2f59965a2ad911972291f60e453275d5cab58c954f1f657ed1fda349)
-- **Date:** Jul-08-2025, Block #328,702,330
+- Current CID: `bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u`
+- View on IPFS Gateway:
+   - [dweb.link](https://dweb.link/ipfs/bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u)
+   - [ipfs.io](https://ipfs.io/ipfs/bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u)
 
-This transaction pins and verifies the OCPS v0.1.2 profile on-chain, enabling decentralized, timestamped certification.
+---
+
+## On-Chain Attestation
+
+To verify the timestamped, on-chain attestation of this OCPS version on Proton Blockchain:
+
+- Attestation made by: `austinauger`
+- On-chain memo: 'OCPS v0.1.2 CID: bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u'
+
+- - ✅ [View On-Chain Attestation on Proton Explorer](https://explorer.xprnetwork.org/tx/2d6b62ded2f59965a2ad911972291f60e453275dcab58c954f1f657ed1fda349)
+
+This proves the integrity and timestamp of your decentralization transparency certification using Proton Blockchain.
+
+---
+
+**Contributions welcome to add further attestations and testing across multiple networks.**
+
+This records our decentralization snapshot verifiably on-chain for community validation.
 
 ## Visuals
 
