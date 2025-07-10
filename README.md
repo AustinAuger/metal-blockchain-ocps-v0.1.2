@@ -56,7 +56,7 @@ To verify the timestamped, on-chain attestation of this OCPS version on Proton B
 
 - - ✅ [View On-Chain Attestation on Proton Explorer](https://explorer.xprnetwork.org/tx/2d6b62ded2f59965a2ad911972291f60e453275dcab58c954f1f657ed1fda349)
 
-This proves the integrity and timestamp of your decentralization transparency certification using Proton Blockchain.
+This proves the integrity and timestamp of decentralization transparency certification using Proton Blockchain.
 
 ---
 
