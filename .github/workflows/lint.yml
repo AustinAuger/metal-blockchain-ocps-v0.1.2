@@ -1,0 +1,30 @@
+name: Lint Markdown
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    paths:
+      - "**/*.md"
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Prettier and Markdownlint
+        run: |
+          npm install -g prettier markdownlint-cli
+
+      - name: Run Prettier
+        run: prettier --check "**/*.md"
+
+      - name: Run Markdownlint
+        run: markdownlint "**/*.md"
