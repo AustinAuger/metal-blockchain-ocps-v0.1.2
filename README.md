@@ -82,6 +82,18 @@ This records our decentralization snapshot verifiably on-chain for community val
 
 ![DAO Nutrition Label](visuals/DAO_Nutrition_Label.PNG)
 
+## Next Milestone
+
+We are preparing for **OCPS v0.2** to include:
+
+- DAO Nutrition Label standardization
+- GitHub Actions for automated IPFS pinning and attestation log updates
+- Contributor workflow for submitting DAO transparency profiles
+- Expanded documentation for on-chain attestation tutorials
+- Community education assets for X, GitHub, and DAO forums
+
+If you would like to contribute, see [CONTRIBUTING.md](CONTRIBUTING.md) or open an issue with your suggestions.
+
 ---
 
 **Ready to certify transparency together!**
