@@ -1,0 +1,29 @@
+## OCPS v0.2 Roadmap Planning
+
+This issue will track planning and discussion for **OCPS v0.2**. The goal is to expand our open, on-chain DAO transparency toolkit with:
+
+✅ **DAO Nutrition Label Standardization**  
+Refine the format and categories for DAO transparency reporting.
+
+✅ **Automated IPFS Pinning + Attestation Logging**  
+Explore GitHub Actions or lightweight scripts to automate pinning and update logs seamlessly.
+
+✅ **Contributor Workflow**  
+Add CONTRIBUTING.md with clear steps for submitting DAO transparency profiles and attestations.
+
+✅ **Documentation Expansion**  
+Include detailed on-chain attestation tutorials for contributors.
+
+✅ **Community Education Assets**  
+DAO transparency explainer visuals, X posts, and short video snippets.
+
+---
+
+### Feedback Requested:
+- What would you like to see included in v0.2?
+- Would you use GitHub Actions for automated pinning?
+- Any visual resources you’d find helpful?
+
+Reply below to discuss. Let’s build open, together.
+
+🩶
