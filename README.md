@@ -5,6 +5,11 @@
   <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Build">
   <img src="https://img.shields.io/badge/built%20with-community%20governance-blue" alt="Built With">
 </p>
+<p align="center">
+  <a href="CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/Contribute-Guide-brightgreen" alt="Contribute Guide">
+  </a>
+</p>
 
 # An open-source, community-driven transparency profile standard for measuring decentralization for DAOs and Metal Blockchain ecosystem projects.
 
