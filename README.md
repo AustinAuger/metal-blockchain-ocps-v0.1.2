@@ -99,11 +99,12 @@ notes: >
 
 ---
 
-## Docs
-- **Vision:** [docs/vision_doc.md](docs/vision_doc.md)  
-- **Public Explainer:** [docs/public_explainer.md](docs/public_explainer.md)  
-- **Roadmap:** [docs/v0.2_roadmap.md](docs/v0.2_roadmap.md)
+## 📚 Docs  
+- [Vision](docs/vision_doc.md)  
+- [Public Explainer](docs/public_explainer.md)  
+- [Roadmap](docs/v0.2_roadmap.md)  
 
+💡 **All DAO profiles live here:** [profiles/](./profiles/)  
 ---
 
 ## IPFS Transparency
