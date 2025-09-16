@@ -1,0 +1,19 @@
+dao_name: ExampleDAO
+chain: Metal Blockchain (XPR Network)
+version: v0.1.2
+created: 2025-09-08
+contributors:
+  - name: Austin Auger
+    role: Maintainer
+governance:
+  model: Token-weighted voting
+  token: EXM
+  supply: 1000000
+  quorum: 15%
+  voting_period: 7 days
+transparency:
+  ipfs_cid: bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u
+  attestation_tx: 2d6b62ded2f59965a2ad911972291f60e453275dcab58c954f1f657ed1fda349
+  attestor: austinauger
+notes: >
+  This is a sample DAO profile submission for contributors to copy and adapt. 
