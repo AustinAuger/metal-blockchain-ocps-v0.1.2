@@ -107,12 +107,12 @@ notes: >
 💡 **All DAO profiles live here:** [profiles/](./profiles/)  
 ---
 
-## IPFS Transparency
+[## IPFS Transparency
 We pin OCPS profiles to IPFS for verifiable decentralization snapshots:  
 - **Current CID:** `bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u`  
 - **View on IPFS Gateway:**  
-  - [dweb.link](https://dweb.link/ipfs/bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u)  
-  - [ipfs.io](https://ipfs.io/ipfs/bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u)
+  - [dweb.link](https://dweb.link/ipfs/bafybeifjpj2lqibtgmwv7u7e5lonzbriz2zq4wiyuyp267lelnbzohpvwm)  
+  - [ipfs.io](https://ipfs.io/ipfs/bafybeifjpj2lqibtgmwv7u7e5lonzbriz2zq4wiyuyp267lelnbzohpvwm)](https://bafybeifjpj2lqibtgmwv7u7e5lonzbriz2zq4wiyuyp267lelnbzohpvwm.ipfs.dweb.link/)
 
 ---
 
@@ -120,7 +120,7 @@ We pin OCPS profiles to IPFS for verifiable decentralization snapshots:
 To verify the timestamped, on-chain attestation of this OCPS version on The XPRNetwork Blockchain:  
 - **Attestation made by:** austinauger  
 - **On-chain memo:** `OCPS v0.1.2 CID: bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u`  
-- ✅ **View On-Chain Attestation on Proton Explorer**
+- ✅ **View On-Chain Attestation on XPRNetwork Explorer**
 
 ---
 
