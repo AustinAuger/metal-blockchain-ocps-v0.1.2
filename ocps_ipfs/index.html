@@ -1,0 +1,133 @@
+ <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OCPS Profile Viewer</title>
+
+  <!-- Highlight.js style -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css"/>
+
+  <style>
+    :root{--bg:#f6f8fa;--card:#ffffff;--muted:#586069;--border:#e1e4e8}
+    body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial;
+         background:var(--bg);color:#0b1b2b;margin:0;padding:28px}
+    .wrap{max-width:980px;margin:0 auto}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    h1{font-size:18px;margin:0}
+    .controls{margin-top:14px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+    input[type="text"]{padding:8px;border:1px solid var(--border);border-radius:6px;width:320px}
+    button{padding:8px 12px;border-radius:6px;border:1px solid var(--border);background:#fff;cursor:pointer}
+    pre{background:var(--card);border:1px solid var(--border);padding:16px;border-radius:8px;overflow:auto;margin-top:16px}
+    .meta{margin-top:10px;color:var(--muted);font-size:13px}
+    .links a{color:#0366d6;text-decoration:none}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    @media (max-width:520px){input[type="text"]{width:100%}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>OCPS Profile Viewer</h1>
+      <div class="links">
+        <a id="rawLink" href="#" target="_blank" rel="noopener">Open raw file</a>
+      </div>
+    </header>
+
+    <div class="controls">
+      <label for="file">File (relative):</label>
+      <input id="file" type="text" value="sample_dao.yaml" />
+      <button id="loadBtn">Load</button>
+      <button id="exampleBtn">Load example YAML</button>
+    </div>
+
+    <pre><code id="content" class="language-yaml">Loading…</code></pre>
+
+    <div class="meta">Tip: put this <code>index.html</code> and your YAML/JSON files in the same folder before pinning to IPFS.</div>
+
+    <footer>
+      If the file fails to load via a gateway, try opening the gateway URL directly (see README update instructions).
+    </footer>
+  </div>
+
+  <!-- Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+
+  <script>
+    // Elements
+    const contentEl = document.getElementById('content');
+    const fileInput = document.getElementById('file');
+    const loadBtn = document.getElementById('loadBtn');
+    const rawLink = document.getElementById('rawLink');
+    const exampleBtn = document.getElementById('exampleBtn');
+
+    // Helpers
+    function setRawHref(path){
+      try{
+        const base = window.location.href.split('?')[0];
+        const url = new URL(path, base);
+        rawLink.href = url.href;
+        rawLink.textContent = 'Open raw: ' + path;
+      }catch(e){
+        rawLink.href = '#';
+        rawLink.textContent = 'Open raw file';
+      }
+    }
+
+    function getQueryParam(name){
+      const params = new URLSearchParams(window.location.search);
+      return params.get(name);
+    }
+
+    async function loadFile(path){
+      contentEl.textContent = 'Loading ' + path + ' ...';
+      setRawHref(path);
+      try{
+        const res = await fetch(path);
+        if(!res.ok) throw new Error(res.status + ' ' + res.statusText);
+        const text = await res.text();
+
+        // Try parse as YAML and re-serialize for consistent formatting
+        try{
+          const parsed = jsyaml.load(text);
+          const pretty = jsyaml.dump(parsed, {indent:2});
+          contentEl.textContent = pretty;
+        }catch(e){
+          // not valid YAML -> show raw
+          contentEl.textContent = text;
+        }
+
+        // highlight
+        hljs.highlightElement(contentEl);
+      }catch(err){
+        contentEl.textContent = 'Error fetching "' + path + '": ' + err.message +
+          '\\n\\nIf this is a gateway link, try opening the gateway root (see README) or confirm the file exists in the folder.';
+      }
+    }
+
+    // Wire up UI
+    loadBtn.addEventListener('click', () => loadFile(fileInput.value.trim() || 'sample_dao.yaml'));
+    exampleBtn.addEventListener('click', () => {
+      const example = `dao_name: ExampleDAO
+chain: Metal Blockchain (XPR Network)
+version: v0.1.2
+created: 2025-09-08
+contributors:
+  - name: Austin Auger
+    role: Maintainer`;
+      contentEl.textContent = example;
+      hljs.highlightElement(contentEl);
+      setRawHref('#example');
+    });
+
+    // Support ?file=filename in URL
+    const qfile = getQueryParam('file');
+    if(qfile){ fileInput.value = qfile; }
+
+    // Initial load
+    loadFile(fileInput.value);
+  </script>
+</body>
+</html>
