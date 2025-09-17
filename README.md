@@ -1,12 +1,22 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/version-v0.1.2-blue" alt="Version">
-  <img src="https://img.shields.io/badge/license-CC--BY%204.0-green" alt="License">
-  <img src="https://img.shields.io/badge/IPFS-pinned-blue" alt="IPFS">
-  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Build">
-  <img src="https://img.shields.io/badge/built%20with-community%20governance-blue" alt="Built With">
+  <a href="./README.md">
+    <img src="https://img.shields.io/badge/version-v0.1.2-blue" alt="Version">
+  </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/license-CC--BY%204.0-green" alt="License">
+  </a>
+  <a href="#ipfs-transparency">
+    <img src="https://img.shields.io/badge/IPFS-pinned-blue" alt="IPFS">
+  </a>
+  <a href="#next-milestone">
+    <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status">
+  </a>
+  <a href="#features">
+    <img src="https://img.shields.io/badge/built%20with-community%20governance-blue" alt="Built With">
+  </a>
 </p>
 <p align="center">
-  <a href="CONTRIBUTING.md">
+  <a href="./CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/Contribute-Guide-brightgreen" alt="Contribute Guide">
   </a>
 </p>
@@ -95,8 +105,14 @@ notes: >
 ---
 
 ## License
-**CC-BY 4.0** – reuse with attribution.
 
+<p align="center">
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/AustinAuger/metal-blockchain-ocps-v0.1.2?color=blue&label=License" alt="License Badge">
+  </a>
+</p>
+
+This repository is licensed under the terms described in the [LICENSE file](./LICENSE).
 ---
 
 ## 📚 Docs  
