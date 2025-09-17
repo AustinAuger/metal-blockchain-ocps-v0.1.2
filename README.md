@@ -117,11 +117,20 @@ We pin OCPS profiles to IPFS for verifiable decentralization snapshots:
 ---
 
 ## On-Chain Attestation
-To verify the timestamped, on-chain attestation of this OCPS version on The XPRNetwork Blockchain:  
-- **Attestation made by:** austinauger  
-- **On-chain memo:** `OCPS v0.1.2 CID: bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u`  
-- ✅ **View On-Chain Attestation on XPRNetwork Explorer**
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Attestor-austinauger-blue" alt="Attestor">
+  <img src="https://img.shields.io/badge/CID-bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u-lightgrey" alt="IPFS CID">
+  <a href="https://explorer.xprnetwork.org/transaction/2d6b62ded2f59965a2ad911972291f60e453275dcab58c954f1f657ed1fda349">
+    <img src="https://img.shields.io/badge/View-On%20Chain-green" alt="View On-Chain">
+  </a>
+</p>
+
+**Details:**  
+- **Attestor:** austinauger  
+- **On-chain memo:** `OCPS v0.1.2 CID: bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u`  
+- ✅ **View on XPRNetwork Explorer:** [Click here](https://explorer.xprnetwork.org/transaction/2d6b62ded2f59965a2ad911972291f60e453275dcab58c954f1f657ed1fda349)  
+- **IPFS CID:** [`bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u`](https://dweb.link/ipfs/bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u)
 ---
 
 ## Visuals
