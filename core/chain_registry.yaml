@@ -1,0 +1,5 @@
+# OCPS v0.2 — Chain Registry
+chains:
+  - adapter: metal
+    chain_id: metal-mainnet
+    status: active
