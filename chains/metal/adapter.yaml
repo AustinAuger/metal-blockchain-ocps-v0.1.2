@@ -1,0 +1,16 @@
+# OCPS v0.2 — Metal Blockchain Adapter
+adapter_name: Metal Blockchain
+chain_namespace: metal
+chain_id: metal-mainnet
+rpc_endpoint: https://rpc.metalblockchain.org
+explorer: https://explorer.metalblockchain.org
+description: >
+  Metal Blockchain adapter for OpenChain Profile Standard (OCPS v0.2).
+  Enables DAO transparency data retrieval and validation for Metal’s Avalanche-based L0 infrastructure.
+metrics_supported:
+  - validator_distribution
+  - subnet_participation
+  - token_concentration
+  - governance_activity
+maintainer: AustinAuger
+version: v0.1
