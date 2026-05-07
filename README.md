@@ -140,3 +140,13 @@ This project is licensed under [Creative Commons Attribution 4.0 International](
 **Submit your DAO profile in 10 minutes →** [`profiles/`](./profiles/)
 
 Every profile counts. Let’s build trust together on Metal Blockchain& Beyond!🤘
+
+---
+
+# Ecosystem Modules
+
+- `/dao` → DAO governance transparency
+- `/civic` → municipal governance transparency
+- `/ai-audit` → AI governance analysis systems
+
+See `/docs/ecosystem-map.md` for architecture overview.
