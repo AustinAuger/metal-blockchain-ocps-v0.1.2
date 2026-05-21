@@ -145,11 +145,11 @@ Every profile counts. Let’s build trust together on Metal Blockchain& Beyond!�
 
 # Ecosystem Modules
 
-- `/dao` → DAO governance transparency
-- `/civic` → municipal governance transparency
-- `/ai-audit` → AI governance analysis systems
-- `/identity` → privacy-preserving governance identity systems
-- `/treasury` → treasury transparency infrastructure
-- `/interoperability` → governance interoperability systems
+- [`/dao`](./dao) → DAO governance transparency
+- [`/civic`](./civic) → municipal governance transparency
+- [`/ai-audit`](./ai-audit) → AI governance analysis systems
+- [`/identity`](./identity) → privacy-preserving governance identity systems
+- [`/treasury`](./treasury) → treasury transparency infrastructure
+- [`/interoperability`](./interoperability) → governance interoperability systems
 
-See `/docs/ecosystem-map.md` for architecture overview.
+See [`/docs/ecosystem-map.md`](./docs/ecosystem-map.md) for architecture overview.
