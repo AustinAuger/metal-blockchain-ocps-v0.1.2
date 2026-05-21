@@ -148,5 +148,8 @@ Every profile counts. Let’s build trust together on Metal Blockchain& Beyond!�
 - `/dao` → DAO governance transparency
 - `/civic` → municipal governance transparency
 - `/ai-audit` → AI governance analysis systems
+- `/identity` → privacy-preserving governance identity systems
+- `/treasury` → treasury transparency infrastructure
+- `/interoperability` → governance interoperability systems
 
 See `/docs/ecosystem-map.md` for architecture overview.
