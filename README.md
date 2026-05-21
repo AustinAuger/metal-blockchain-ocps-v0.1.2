@@ -1,3 +1,7 @@
+# Ecosystem Architecture
+
+![DAO Nutrition Label Ecosystem Map](./docs/images/ecosystem-map.png)
+
 # DAO Nutrition Label
 
 ![DAO Nutrition Label Hero](visuals/dao-nutrition-label-hero.png)
