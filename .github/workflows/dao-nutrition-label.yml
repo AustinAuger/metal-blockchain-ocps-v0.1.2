@@ -28,7 +28,6 @@ jobs:
         run: npm install js-yaml sharp canvas @actions/core
 
       - name: Validate & Generate Label
-        id: generate
         run: node .github/scripts/process-profile.js
 
       - name: Pin to IPFS via Pinata
@@ -36,10 +35,16 @@ jobs:
         env:
           PINATA_JWT: ${{ secrets.PINATA_JWT }}
         run: |
-          CID=$(curl -X POST "https://api.pinata.cloud/pinning/pinFileToIPFS" \
-            -H "Authorization: Bearer $PINATA_JWT" \
-            -F "file=@generated-label.png" | jq -r '.IpfsHash')
-          echo "IPFS_CID=$CID" >> $GITHUB_ENV
+          if [ -f generated-label.png ]; then
+            CID=$(curl -X POST "https://api.pinata.cloud/pinning/pinFileToIPFS" \
+              -H "Authorization: Bearer $PINATA_JWT" \
+              -F "file=@generated-label.png" | jq -r '.IpfsHash')
+            echo "IPFS_CID=$CID" >> $GITHUB_ENV
+            echo "✅ Pinned: $CID"
+          else
+            echo "⚠️ No generated-label.png found"
+            echo "IPFS_CID=skipped" >> $GITHUB_ENV
+          fi
 
       - name: Generate XPR Attestation Payload
         run: |
@@ -62,8 +67,12 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const payload = fs.readFileSync('attestation-payload.json', 'utf8');
-            const cid = process.env.IPFS_CID;
+            let payload = 'No payload generated';
+            let cid = process.env.IPFS_CID || 'N/A';
+            
+            if (fs.existsSync('attestation-payload.json')) {
+              payload = fs.readFileSync('attestation-payload.json', 'utf8');
+            }
             
             await github.rest.issues.createComment({
               owner: context.repo.owner,
