@@ -33,6 +33,6 @@ Shared governance schemas, machine-readable protocols, and infrastructure intero
 The long-term objective is to support the evolution of:
 - machine-readable governance
 - AI-auditable public systems
-- interoperable civic infrastructure
+- interoperable civic infrastructures
 - privacy-preserving participation
 - programmable governance systems
