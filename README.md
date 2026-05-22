@@ -1,3 +1,25 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Ecosystem Architecture](#ecosystem-architecture)
+- [DAO Nutrition Label](#dao-nutrition-label)
+  - [Features](#features)
+  - [OGIS — Integrity & Data Layer](#ogis--integrity--data-layer)
+  - [Standards Alignment](#standards-alignment)
+  - [How It Works (10-minute contribution)](#how-it-works-10-minute-contribution)
+  - [DAO Profile Template](#dao-profile-template)
+  - [Examples](#examples)
+  - [IPFS & On-Chain Transparency](#ipfs--on-chain-transparency)
+  - [Visuals](#visuals)
+  - [Docs](#docs)
+  - [Next Milestone – v0.2](#next-milestone--v02)
+  - [Contributing](#contributing)
+  - [License](#license)
+- [Ecosystem Modules](#ecosystem-modules)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Ecosystem Architecture
 
 ![DAO Nutrition Label Ecosystem Map](./docs/images/ecosystem-map.png)
