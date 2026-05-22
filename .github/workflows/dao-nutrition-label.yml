@@ -43,5 +43,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `## 🎉 Automation Working!\n\n**XPR Attestation Payload:**\n\`\`\`json\n${payload}\n\`\`\``
+              body: `## 🎉 Automation is WORKING!\n\n**XPR Attestation Payload:**\n\`\`\`json\n${payload}\n\`\`\``
             });
