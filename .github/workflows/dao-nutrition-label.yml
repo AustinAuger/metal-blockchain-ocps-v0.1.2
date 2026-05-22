@@ -43,5 +43,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `## 🎉 DAO Nutrition Label Automation Working!\n\n**Status:** Success!\n\n**XPR Attestation Payload:**\n\`\`\`json\n${payload}\n\`\`\`\n\nWell done Austin!`
+              body: `## 🎉 DAO Nutrition Label Automation is Working!\n\n**Status:** Success!\n\n**XPR Attestation Payload:**\n\`\`\`json\n${payload}\n\`\`\``
             });
