@@ -1,0 +1,19 @@
+name: Metal Blockchain
+version: 0.1
+
+overview:
+  description: >
+    Compliance-focused blockchain ecosystem
+    developed by Metallicus.
+
+organization:
+  name: Metallicus
+
+network:
+  type: Avalanche Subnet
+
+token:
+  symbol: METAL
+
+governance:
+  model: Metal DAO
