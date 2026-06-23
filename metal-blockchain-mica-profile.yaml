@@ -1,0 +1,38 @@
+name: Metal Blockchain MiCA Profile
+entity: Metal Blockchain
+framework: DAO Nutrition Label v0.3 (MiCA Module)
+
+mica_alignment:
+
+  governance_transparency:
+    score: 8
+    notes: "Known corporate operator (Metallicus) with structured governance; DAO governance layer still maturing."
+
+  technical_transparency:
+    score: 9
+    notes: "Strong published architecture and documentation; compliance-oriented design."
+
+  treasury_transparency:
+    score: 4
+    notes: "Limited public disclosure of treasury holdings and policy structure."
+
+  tokenomics_disclosure:
+    score: 8
+    notes: "Generally well documented token model; some supply-flow clarity improvements possible."
+
+  compliance_readiness:
+    score: 9
+    notes: "Strong alignment with KYC/AML, banking infrastructure mindset, and regulatory readiness."
+
+  custody_and_asset_protection:
+    score: 7
+    notes: "Custody model exists but could benefit from deeper public documentation."
+
+  operational_resilience:
+    score: 8
+    notes: "Mature infrastructure and institutional-grade direction."
+
+summary:
+  total_score: 76
+  classification: "MiCA-aligned but not fully disclosure-complete"
+  interpretation: "Strong candidate for regulated EU-facing blockchain services with improved transparency reporting."
