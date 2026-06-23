@@ -1,0 +1,38 @@
+name: <PROJECT_NAME>
+entity: <ENTITY_NAME>
+framework: DAO Nutrition Label v0.3 (MiCA Module)
+
+mica_alignment:
+
+  governance_transparency:
+    score: 0
+    notes: ""
+
+  technical_transparency:
+    score: 0
+    notes: ""
+
+  treasury_transparency:
+    score: 0
+    notes: ""
+
+  tokenomics_disclosure:
+    score: 0
+    notes: ""
+
+  compliance_readiness:
+    score: 0
+    notes: ""
+
+  custody_and_asset_protection:
+    score: 0
+    notes: ""
+
+  operational_resilience:
+    score: 0
+    notes: ""
+
+summary:
+  total_score: 0
+  classification: ""
+  interpretation: ""
