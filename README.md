@@ -17,6 +17,7 @@
   - [Contributing](#contributing)
   - [License](#license)
 - [Ecosystem Modules](#ecosystem-modules)
+  - [🧪 First MiCA Implementation Example](#-first-mica-implementation-example)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
