@@ -61,3 +61,11 @@ This dashboard will evolve into:
 - real-time on-chain data feeds
 - visual UI version (SVG / web dashboard)
 - cross-chain benchmarking interface
+
+---
+
+## 🔗 Supporting Profiles
+
+- [Metal Blockchain MiCA Profile](../profiles/metal-blockchain-mica-profile.yaml)
+- [Metal Blockchain MiCA Label](./metal-blockchain-mica-label.md)
+- [MiCA Multi-Chain Comparison](../docs/mica-multi-chain-comparison.md)
