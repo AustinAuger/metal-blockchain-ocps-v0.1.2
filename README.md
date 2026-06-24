@@ -187,9 +187,10 @@ See [`/docs/ecosystem-map.md`](./docs/ecosystem-map.md) for architecture overvie
 
 The first real-world application of the DAO Nutrition Label MiCA module is now live:
 
-👉 Metal Blockchain MiCA Nutrition Label  
-- Machine-readable profile: `profiles/metal-blockchain-mica-profile.yaml`
-- Human-readable label: `visuals/metal-blockchain-mica-label.md`
+👉 Metal Blockchain MiCA Nutrition Label
+
+- [Machine-readable profile](./profiles/metal-blockchain-mica-profile.yaml)
+- [Human-readable label](./visuals/metal-blockchain-mica-label.md)
 
 This serves as a reference implementation for how blockchain ecosystems can be evaluated under MiCA-aligned transparency standards.
 
