@@ -78,6 +78,19 @@ It builds on [EIP-4824](https://eips.ethereum.org/EIPS/eip-4824) (`dao://` URI s
 
 ---
 
+### Optional Dynamic / Oracle Metrics Extension (v0.1)
+
+Starting with schema version v0.1.3, the DAO Nutrition Label supports an **optional** `dynamic_metrics` section. This allows profiles to include live, oracle-powered data (for example via API3 dAPIs on Metal L2) alongside the traditional static governance fields.
+
+- Static fields remain the core of the Nutrition Label and continue to be attested as before.
+- Dynamic fields are clearly marked, optional, and can pull live values such as circulating supply, holder concentration, market data, or composite decentralization scores.
+- A matching JSON Schema is available at [`schemas/dynamic-oracle-v0.1.schema.json`](./schemas/dynamic-oracle-v0.1.schema.json).
+- See the example profile: [`profiles/sample_dao_with_dynamic.yaml`](./profiles/sample_dao_with_dynamic.yaml).
+
+This extension is fully backward-compatible. Profiles without the `dynamic_metrics` section remain valid.
+
+---
+
 ## How It Works (10-minute contribution)
 1. Copy [`profiles/sample_dao.yaml`](./profiles/sample_dao.yaml)  
 2. Rename it to your DAO name (e.g. `my-dao.yaml`)  
