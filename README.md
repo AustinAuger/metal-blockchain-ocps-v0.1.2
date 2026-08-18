@@ -7,6 +7,7 @@
   - [Features](#features)
   - [OGIS — Integrity & Data Layer](#ogis--integrity--data-layer)
   - [Standards Alignment](#standards-alignment)
+    - [Optional Dynamic / Oracle Metrics Extension (v0.1)](#optional-dynamic--oracle-metrics-extension-v01)
   - [How It Works (10-minute contribution)](#how-it-works-10-minute-contribution)
   - [DAO Profile Template](#dao-profile-template)
   - [Examples](#examples)
