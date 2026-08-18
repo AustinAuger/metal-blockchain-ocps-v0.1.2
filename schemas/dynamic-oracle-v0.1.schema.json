@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/AustinAuger/dao-nutrition-label/schemas/dynamic-oracle-v0.1.schema.json",
+  "title": "DAO Nutrition Label – Dynamic/Oracle Extension v0.1",
+  "description": "Optional extension that adds live oracle-powered metrics to the DAO Nutrition Label",
+  "type": "object",
+  "properties": {
+    "dynamic_metrics": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether this profile uses any live oracle data"
+        },
+        "update_frequency": {
+          "type": "string",
+          "enum": ["on-demand", "daily", "hourly", "real-time"]
+        },
+        "oracle_providers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "network", "type"],
+            "properties": {
+              "name": { "type": "string" },
+              "network": { "type": "string" },
+              "type": { "type": "string" },
+              "notes": { "type": "string" }
+            }
+          }
+        },
+        "fields": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "description", "source"],
+            "properties": {
+              "id": { "type": "string" },
+              "description": { "type": "string" },
+              "source": { "type": "string" },
+              "dapi_name": { "type": "string" },
+              "unit": { "type": "string" },
+              "calculation": { "type": "string" },
+              "last_value": { "type": ["number", "string", "null"] },
+              "last_updated": { "type": ["string", "null"], "format": "date-time" },
+              "attestation_required": { "type": "boolean" },
+              "inputs": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "formula": { "type": "string" }
+            }
+          }
+        }
+      },
+      "required": ["enabled"]
+    }
+  }
+}
