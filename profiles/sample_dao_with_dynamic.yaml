@@ -1,0 +1,53 @@
+dao_name: ExampleDAO
+chain: Metal Blockchain (XPR Network)
+version: v0.1.3
+created: 2026-08-17
+last_updated: 2026-08-17T21:30:00Z
+
+contributors:
+  - name: Austin Auger
+    role: Maintainer
+
+governance:
+  model: Token-weighted voting
+  token: EXM
+  supply: 1000000
+  quorum: 15%
+  voting_period: 7 days
+
+dynamic_metrics:
+  enabled: true
+  update_frequency: "on-demand"
+  oracle_providers:
+    - name: API3
+      network: Metal L2
+      type: first-party-dAPI
+      notes: "Primary source for live market & concentration data"
+  fields:
+    - id: circulating_supply_live
+      description: "Current circulating supply pulled from oracle"
+      source: API3
+      dapi_name: "EXM/circulating-supply"
+      unit: tokens
+      last_value: null
+      last_updated: null
+      attestation_required: false
+
+    - id: top10_holder_concentration
+      description: "Percentage of supply held by top 10 addresses"
+      source: API3
+      dapi_name: "EXM/top10-concentration"
+      unit: percent
+      last_value: null
+      last_updated: null
+      attestation_required: true
+
+transparency:
+  ipfs_cid: bafkreicsmi3psin7klvrsarl36b3zoxlv2722ru3yhqzne2tmhc6fqss3u
+  attestation_tx: 2d6b62ded2f59965a2ad911972291f60e453275dcab58c954f1f657ed1fda349
+  attestor: austinauger
+  schema_extension: "dynamic-oracle-v0.1"
+
+notes: >
+  This profile includes optional dynamic metrics powered by API3 dAPIs.
+  Static governance fields remain the source of truth.
